@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #6996AD;
+}
+h1 {
+  color :#003F87;
+  text-align: center
+}
+.container {
+  width:50%;
+  height:100%;
+}
+#address{
+  width:100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+#map{
+  height: 50%;
+  margin-top: 10px;
+  background-color: pink;
+}
