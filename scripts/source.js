@@ -1,6 +1,6 @@
 
 var currentLocationFound = function() {
-  fetch('https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAbjKXCCuwm4apKOJW0Hmh5EzcGiPt3V5w', {
+  fetch('https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDgOXLhavsBLAnuopU21BOEzYJ8jcyM9Ak', {
   	method: 'post'
   })
   .then(function(response) {
@@ -39,7 +39,7 @@ var getMap = function() {
   var address = document.getElementById("address").value;
   address = encodeURI(address);
   var xhr = new XMLHttpRequest();
-  var url = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyAbjKXCCuwm4apKOJW0Hmh5EzcGiPt3V5w"
+  var url = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyBnNOCAmoGTQeX7BOav57vRddN9nYnAKxI"
   xhr.open("GET", url );
   xhr.onload = function() {
     var response = JSON.parse(xhr.response);
